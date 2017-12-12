@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testModule"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of testModule."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/testModule.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Cuiyun/testModuleDEV.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
