@@ -1,10 +1,4 @@
-#
-#  Be sure to run `pod spec lint testModule.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
+
 
 Pod::Spec.new do |s|
 
@@ -16,18 +10,17 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "testModule"
-  s.version      = "0.0.2"
-  s.summary      = "A short description of testModule."
+  s.version      = "0.0.3"
+  s.summary      = "A brightlight Module."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A brightlight Module.yeah"
 
-  s.homepage     = "http://EXAMPLE/testModule"
+  s.homepage     = "https://github.com/Cuiyun/testModuleDEV"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -90,7 +83,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "testModule", "testModule/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
